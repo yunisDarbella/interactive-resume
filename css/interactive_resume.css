@@ -1,0 +1,61 @@
+/* Gestion de la couleur de fond */
+body {
+    background-color: #F0F0F0;
+}
+/* Gestion de la position de l'ensemble du contenu */
+div#content {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 45%;
+  height: 25%;
+}
+/* Gestion du style du titre principal */
+h1#title {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-align: -webkit-center;
+    white-space: normal;
+    float: none;
+}
+/* Gestion du style du titre de l'anecdote */
+p#anecdoteTitle {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-align: -webkit-center;
+    float: none;
+}
+/* Gestion du style de l'anecdote */
+p#anecdote {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-align: -webkit-center;
+    font-style: italic;
+    float: none;
+}
+/* Gestion du style des liens */
+li {
+    display: -webkit-box;
+    text-align: -webkit-center;
+}
+ul {
+  margin-left: -40px;
+}
+a {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-left: : -5px;
+    font-size: 1em;
+    text-decoration: none;
+    white-space: nowrap;
+    color: cornflowerblue;
+}
